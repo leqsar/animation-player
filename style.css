@@ -1,0 +1,59 @@
+.copy-button {
+    width: 60px;
+    height: 30px;
+    background-color: #771313;
+    color: #FFFFFF;
+}
+
+.delete-button {
+    width: 60px;
+    height: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+canvas {
+  image-rendering: pixelated;
+}
+
+
+#main-canvas {
+    border-style: dashed;
+    border-width: 4px;
+    border-color: #771313;
+}
+
+.container {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #771313;
+    width: 170px;
+    margin-top: 10px;
+}
+
+.copy-button,
+.delete-button {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copy-button:hover {
+    cursor: default;
+}
+
+.delete-button {
+    cursor: default;
+}
+
+#add-frame {
+    margin-top: 20px;
+    width: 120px;
+    height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #000000;
+}
+
+#add-frame:hover {
+    cursor: default;
+}
